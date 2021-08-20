@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hello</title>
+</head>
+<body>
+
+<h2>Chuyển đổi đối tượng Javascript thành chuỗi JSON, và gửi nó đến máy chủ.</h2>
+
+<script>
+var myObj = { name: "Khoa", age: 19, city: "DaNang" };
+var myJSON = JSON.stringify(myObj);
+window.location = "demo_json.php?x=" + myJSON;
+</script>
+
+</body>
+</html>
